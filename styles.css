@@ -1,0 +1,137 @@
+ @font-face {
+            font-family: av;
+            src: url(avn.ttf)format("truetype");
+        }
+         @font-face {
+            font-family: l;
+            src: url(ll.ttf)format("truetype");
+        }
+        body{
+background-color: black;
+}
+
+        /* Navigation Bar*/
+        
+        .navbar{
+            border-radius: 30px;
+            position: fixed;
+               
+        }
+        .navbar ul{
+            display: inline-flex;
+            padding-left:100%;
+            padding-right:100%;
+            margin-left: 70%;      
+        }
+
+        .navbar li{
+            font-size: 14px;
+            font-family: l;
+            list-style: none;
+            padding-top: 0;
+            padding-left: 3%;
+            padding-right: 3%;
+                  
+        }
+        .navbar li a{
+            text-decoration: none;
+            color: rgb(255, 251, 251);
+            font-weight: bolder;
+            font-size: 22px;
+        }
+              
+        
+        .navbar li a:hover{
+            color: darkred;
+        }
+        
+		
+
+        /* Home*/
+
+        .row1{
+            background-image: url("ir.jpg");
+            background-size: 100%;
+            padding-top: 20%;
+            padding-bottom: 20%;
+            padding-right: 5%;
+            display: block;
+            text-align: right;
+        }
+        .p{
+           color: antiquewhite;
+           padding-right: 3%;
+           padding-left: 250px;
+           font-size: 25px;
+             }
+             .im{
+            font-size: 45px;
+            padding-left: 120px;
+            color: red;
+            font-family: av;
+        }
+
+        .tony{
+            font-size: 20px;
+            padding-left: 120px;
+            color: aliceblue;   
+          
+        }
+
+        /*OverView*/ 
+        table{
+            padding: 10%;
+        }
+        .text{
+            padding: 8%;
+            background-color: black;
+            color: antiquewhite;
+        }
+
+        /* About*/
+        .bio{
+            color: antiquewhite;
+            padding-top: 0%;
+            padding-left: 0%;
+            padding-right: 60%;
+            padding-bottom: 2%;
+            display: grid;
+           place-items: left;
+           background-image: url(511221.jpg);
+           background-size: 100%;
+           background-repeat: no-repeat;
+        }
+        .bioT{
+            border-color: rgb(5, 5, 5);
+            padding:4%;
+        }
+        h2,h1{
+            text-align: center;
+        }
+        td{
+            padding: 1%;
+        }
+        
+        /*footer*/
+        footer{
+            background-color: rgb(9, 18, 36);
+            padding: 3%;
+            
+        }
+        .f li{
+            list-style-type: none;
+            text-decoration: none;
+            padding: 4px;
+        }
+        .f ul{
+            overflow: auto;
+            display: inline-flex;
+            display: flex;
+            justify-content: center;
+        }
+        .f li a img:hover{
+           width: 35px;  
+        }
+        header{
+            background-color: black;
+        }
